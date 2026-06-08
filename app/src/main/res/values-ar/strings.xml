@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">منصة التعلم بدون إنترنت</string>
+
+    <!-- Navigation -->
+    <string name="nav_dashboard">لوحة التحكم</string>
+    <string name="nav_library">المكتبة</string>
+    <string name="nav_timer">المؤقت</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">لوحة التحكم</string>
+    <string name="continue_studying">متابعة الدراسة</string>
+    <string name="no_recent_activity">لا توجد أنشطة حديثة</string>
+    <string name="start_learning">ابدأ التعلم بإضافة دورات إلى مكتبتك</string>
+    <string name="today_study_time">وقت الدراسة اليوم</string>
+    <string name="completed_modules">الوحدات المكتملة</string>
+    <string name="active_streak">السلسلة المتتالية</string>
+    <string name="minutes">دقيقة</string>
+    <string name="days">أيام</string>
+    <string name="hours">سا</string>
+    <string name="modules">وحدة</string>
+    <string name="streak_days">%d أيام</string>
+    <string name="resume">استئناف</string>
+
+    <!-- Library -->
+    <string name="library_title">مكتبتي</string>
+    <string name="import_file">استيراد ملف</string>
+    <string name="import_description">استيراد ملفات MP4 أو MP3 أو PDF من جهازك</string>
+    <string name="no_files">لا توجد ملفات بعد</string>
+    <string name="no_files_description">قم باستيراد الدورات والكتب لبدء التعلم بدون إنترنت</string>
+    <string name="courses">الدورات</string>
+    <string name="books">الكتب</string>
+    <string name="all_files">جميع الملفات</string>
+    <string name="videos">فيديو</string>
+    <string name="audios">صوت</string>
+    <string name="pdfs">PDF</string>
+    <string name="search_hint">ابحث في مكتبتك…</string>
+    <string name="file_imported_successfully">تم استيراد الملف بنجاح</string>
+    <string name="file_import_failed">فشل استيراد الملف</string>
+    <string name="permission_denied">تم رفض إذن التخزين</string>
+
+    <!-- Player -->
+    <string name="player_title">المشغل</string>
+    <string name="playback_speed">سرعة التشغيل</string>
+    <string name="skip_forward">تخطي للأمام ١٠ث</string>
+    <string name="skip_backward">تخطي للخلف ١٠ث</string>
+    <string name="bookmark">علامة مرجعية</string>
+    <string name="bookmark_added">تمت إضافة العلامة المرجعية</string>
+    <string name="notes">ملاحظات</string>
+    <string name="add_note">إضافة ملاحظة</string>
+    <string name="note_hint">اكتب ملاحظتك…</string>
+    <string name="save_note">حفظ الملاحظة</string>
+    <string name="take_note_at_timestamp">تدوين ملاحظة في هذه اللحظة</string>
+    <string name="no_notes_yet">لا توجد ملاحظات بعد</string>
+    <string name="speed_0_5x">0.5x</string>
+    <string name="speed_0_75x">0.75x</string>
+    <string name="speed_1x">1x</string>
+    <string name="speed_1_25x">1.25x</string>
+    <string name="speed_1_5x">1.5x</string>
+    <string name="speed_2x">2x</string>
+
+    <!-- PDF Reader -->
+    <string name="pdf_reader_title">قارئ PDF</string>
+    <string name="page">صفحة</string>
+    <string name="of">من</string>
+    <string name="last_page_saved">تم حفظ آخر صفحة</string>
+    <string name="jump_to_page">الانتقال إلى صفحة</string>
+    <string name="bookmark_page">وضع علامة مرجعية لهذه الصفحة</string>
+    <string name="bookmarked_pages">الصفحات المرجعية</string>
+    <string name="no_bookmarks">لا توجد علامات مرجعية بعد</string>
+
+    <!-- Pomodoro Timer -->
+    <string name="pomodoro_timer">مؤقت بومودورو</string>
+    <string name="focus_time">وقت التركيز</string>
+    <string name="break_time">وقت الاستراحة</string>
+    <string name="start">بدء</string>
+    <string name="pause">إيقاف مؤقت</string>
+    <string name="reset">إعادة تعيين</string>
+    <string name="focus_session">جلسة تركيز</string>
+    <string name="break_session">جلسة استراحة</string>
+    <string name="session_complete">اكتملت الجلسة!</string>
+    <string name="session_complete_message">أحسنت! خذ استراحة.</string>
+    <string name="break_complete">انتهت الاستراحة!</string>
+    <string name="break_complete_message">هل أنت مستعد للتركيز مرة أخرى؟</string>
+
+    <!-- Settings -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="language">اللغة</string>
+    <string name="language_english">English</string>
+    <string name="language_arabic">العربية</string>
+    <string name="about">حول</string>
+    <string name="version">الإصدار</string>
+    <string name="app_description">مدير دورات وكتب احترافي بدون إنترنت مصمم لمساعدتك على الدراسة دون تشتيت.</string>
+    <string name="appearance">المظهر</string>
+    <string name="theme">السمة</string>
+    <string name="theme_system">إعدادات النظام</string>
+    <string name="theme_light">فاتح</string>
+    <string name="theme_dark">داكن</string>
+    <string name="data_management">إدارة البيانات</string>
+    <string name="clear_all_data">حذف جميع البيانات</string>
+    <string name="clear_all_data_confirm">هل أنت متأكد؟ سيتم حذف جميع الدورات والكتب والملاحظات.</string>
+    <string name="cancel">إلغاء</string>
+    <string name="confirm">تأكيد</string>
+    <string name="data_cleared">تم حذف جميع البيانات</string>
+    <string name="storage_usage">استخدام التخزين</string>
+
+    <!-- General -->
+    <string name="ok">موافق</string>
+    <string name="error">خطأ</string>
+    <string name="success">نجاح</string>
+    <string name="loading">جارٍ التحميل…</string>
+    <string name="no_internet">لا يوجد اتصال بالإنترنت</string>
+    <string name="file_not_found">لم يتم العثور على الملف</string>
+    <string name="unknown_error">حدث خطأ غير معروف</string>
+    <string name="retry">إعادة المحاولة</string>
+    <string name="delete">حذف</string>
+    <string name="edit">تعديل</string>
+    <string name="save">حفظ</string>
+    <string name="close">إغلاق</string>
+
+    <!-- Content Types -->
+    <string name="type_video">فيديو</string>
+    <string name="type_audio">صوت</string>
+    <string name="type_pdf">PDF</string>
+    <string name="type_unknown">غير معروف</string>
+
+    <!-- Learning Module -->
+    <string name="module">الوحدة</string>
+    <string name="modules_title">الوحدات</string>
+    <string name="no_modules">لا توجد وحدات بعد</string>
+    <string name="create_module">إنشاء وحدة</string>
+    <string name="add_to_module">إضافة إلى وحدة</string>
+    <string name="module_name_hint">اسم الوحدة…</string>
+    <string name="create">إنشاء</string>
+</resources>
