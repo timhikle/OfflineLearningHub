@@ -81,7 +81,9 @@ dependencies {
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.android)
 
-    implementation(libs.android.pdf.viewer)
+    implementation(libs.android.pdf.viewer) {
+        exclude(group = "com.android.support")
+    }
 
     implementation(libs.coil.compose)
 
