@@ -85,9 +85,6 @@ dependencies {
 
     implementation(libs.coil.compose)
 
-    implementation(libs.tdlight.java) {
-        exclude(group = "it.tdlight", module = "tdlight-natives-win")
-        exclude(group = "it.tdlight", module = "tdlight-natives-linux")
-        exclude(group = "it.tdlight", module = "tdlight-natives-mac")
-    }
+    implementation(platform(libs.tdlight.java.bom))
+    implementation(libs.tdlight.java)
 }

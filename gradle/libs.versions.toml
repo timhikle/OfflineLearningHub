@@ -14,7 +14,7 @@ coroutines = "1.9.0"
 pdf-viewer = "3.2.0-beta.1"
 accompanist = "0.36.0"
 coil = "2.7.0"
-tdlight = "3.2.3"
+tdlight = "3.5.2+td.1.8.64"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
@@ -50,7 +50,8 @@ android-pdf-viewer = { group = "com.github.barteksc", name = "android-pdf-viewer
 
 coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 
-tdlight-java = { group = "it.tdlight", name = "tdlight-java", version.ref = "tdlight" }
+tdlight-java-bom = { group = "it.tdlight", name = "tdlight-java-bom", version.ref = "tdlight" }
+tdlight-java = { group = "it.tdlight", name = "tdlight-java" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
