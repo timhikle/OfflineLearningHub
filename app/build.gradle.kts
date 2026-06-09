@@ -86,5 +86,8 @@ dependencies {
     implementation(libs.coil.compose)
 
     implementation(platform(libs.tdlight.java.bom))
-    implementation(libs.tdlight.java)
+    implementation(libs.tdlight.java) {
+        exclude(group = "it.tdlight", module = "tdlight-api")
+    }
+    implementation("it.tdlight:tdlight-api")
 }
